@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
         String getCityChar = cityNameInput.getText().toString();
         String starWarsFirstName = "";
         String starWarsLastName = "";
-        String starWarsName;
         starWarsFirstName += getLastNameChar.charAt(0);
         starWarsFirstName += getLastNameChar.charAt(1);
         starWarsFirstName += getLastNameChar.charAt(2);

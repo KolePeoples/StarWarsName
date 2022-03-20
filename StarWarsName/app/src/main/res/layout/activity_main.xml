@@ -18,8 +18,8 @@
             android:id="@+id/app_header"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Find your Star Wars Name!"
-            android:textSize="30dp"
+            android:text="@string/title"
+            android:textSize="30sp"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="-16dp" />
 
@@ -30,8 +30,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="Enter first your name: "
-            android:textSize="20dp"
+            android:text="@string/first_prompt"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/app_header" />
@@ -41,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
-            android:hint="Luke"
+            android:hint="@string/first_placeholder"
             android:inputType="textPersonName"
             android:imeOptions="actionDone"
             app:layout_constraintEnd_toEndOf="parent"
@@ -54,8 +54,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:labelFor="@+id/last_name"
-            android:text="Enter your last name:"
-            android:textSize="20dp"
+            android:text="@string/second_prompt"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.515"
             app:layout_constraintStart_toStartOf="parent"
@@ -66,7 +66,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
-            android:hint="Skywalker"
+            android:hint="@string/second_placeholder"
             android:inputType="textPersonName"
             android:imeOptions="actionDone"
             app:layout_constraintEnd_toEndOf="parent"
@@ -79,8 +79,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="Enter your mothers maiden name:"
-            android:textSize="20dp"
+            android:text="@string/third_prompt"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/last_name" />
@@ -91,7 +91,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
             android:inputType="textPersonName"
-            android:hint="Amidala"
+            android:hint="@string/third_placeholder"
             android:imeOptions="actionDone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -104,8 +104,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="What city were you born in:"
-            android:textSize="20dp"
+            android:text="@string/fourth_prompt"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
@@ -117,7 +117,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
             android:inputType="text"
-            android:hint="Polis Massa"
+            android:hint="@string/fourth_placeholder"
             android:imeOptions="actionDone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -142,13 +142,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="generateName"
-            android:text="Generate Name" />
+            android:text="@string/Generate_Name" />
 
         <TextView
             android:id="@+id/name_output"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <ImageView
             android:id="@+id/starWarsImageView"

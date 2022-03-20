@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Star Wars Name</string>
+    <string name="title">Find your Star Wars Name!</string>
+    <string name="first_prompt">Enter first your name:</string>
+    <string name="first_placeholder">Luke</string>
+    <string name="second_prompt">Enter your last name:</string>
+    <string name="second_placeholder">Skywalker</string>
+    <string name="third_prompt">Enter your mother\'s maiden name</string>
+    <string name="third_placeholder">Amidala</string>
+    <string name="fourth_prompt">Enter the city were you born in:</string>
+    <string name="fourth_placeholder">Polis Massa</string>
+    <string name="Generate_Name">Generate Name</string>
 </resources>
